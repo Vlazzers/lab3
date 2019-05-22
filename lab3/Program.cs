@@ -10,19 +10,17 @@ namespace lab2
     {
         static void Main(string[] args)
         {
-            double a, b, d, e, f, c;
+            double a, b, f;
 
             a = Convert.ToDouble(Console.ReadLine());
             b = Convert.ToDouble(Console.ReadLine());
-            d = a + b;
+           
             f = a * b;
-            e = a / b;
-            c = a - b;
+          
+          
 
 
-            Console.WriteLine(c);
-            Console.WriteLine(d);
-            Console.WriteLine(e);
+    
             Console.WriteLine(f);
             Console.ReadKey();
         }
