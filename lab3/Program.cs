@@ -10,8 +10,8 @@ namespace lab2
     {
         static void Main(string[] args)
         {
-            double a, b, f;
-            double a, b, e, c;
+
+            double a, b, e, c, f;
 
             a = Convert.ToDouble(Console.ReadLine());
             b = Convert.ToDouble(Console.ReadLine());
@@ -25,6 +25,14 @@ namespace lab2
             Console.WriteLine(e);
           
             c = a - b;
+
+
+            Console.WriteLine(c);
+
+
+
+            a = Convert.ToDouble(Console.ReadLine());
+            b = Convert.ToDouble(Console.ReadLine());
            
             f = a * b;
           
@@ -34,7 +42,6 @@ namespace lab2
     
             Console.WriteLine(f);
 
-            Console.WriteLine(c);
             Console.ReadKey();
         }
     }
